@@ -36,7 +36,7 @@ nav ul li a {
 .babushka {
   border-radius: 0.5em;
   width: fit-content;
-  background-image: linear-gradient(whitesmoke, silver);
+  background-image: linear-gradient(whitesmoke, gray);
   padding: 2px
 }
 
