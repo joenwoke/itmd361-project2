@@ -12,7 +12,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background: gray;
+	background-image: linear-gradient(#2F4F4F, #034694);
 	width: 100%;
 	height: auto;
 	position: fixed;
@@ -36,6 +36,13 @@ nav ul li a {
 .babushka {
 	border-radius: 0.5em;
 	width: fit-content;
-	background-image: linear-gradient(white, gainsboro);
+	background-image: linear-gradient(white, silver);
 	padding: 2px
+}
+
+#resumepicture {
+	width: 100%;
+	height: auto
+	border-radius: 0.5em;
+	object-fit: contain;
 }
