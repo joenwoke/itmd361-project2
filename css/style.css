@@ -60,3 +60,17 @@ li a:hover {
   padding: 3%;
   clear: left;
 }
+
+.gstyle {
+  border-radius:0.5em;
+  width:fit-content;
+  color: black;
+  text-shadow: 1px 1px 2px whitesmoke, 0 0 25px gray, 0 0 5px black; 
+}
+
+.fc {
+  background-image: linear-gradient(#ffffff, #034694);
+  padding: 3%;
+  border-radius: 0.5em;
+  width: 98%;
+}
