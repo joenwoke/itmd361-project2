@@ -1,6 +1,6 @@
 #content {
 	padding: 5%;
-	background-color: white;	
+	background-color: whitesmoke;	
 }
 
 hr {
@@ -31,4 +31,11 @@ nav ul li a {
 	color: white;
 	font-size: 20px;
 	font-family: 'DM Serif Display', serif;
+}
+
+.babushka {
+	border-radius: 0.5em;
+	width: fit-content;
+	background-image: linear-gradient(white, gainsboro);
+	padding: 2px
 }
