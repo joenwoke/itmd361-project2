@@ -4,7 +4,7 @@
 }
 
 hr {
-  border: 1px solid-black;
+  border: 1px solid black;
 }
 
 nav ul {
@@ -24,19 +24,19 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
   display: block;
   text-align: center;
   padding: 20px;
+  text-decoration: none;
   color: white;
-  font-size: 20px;
-  font-family: 'DM Serif Display', serif;
 }
 
 .babushka {
   border-radius: 0.5em;
   width: fit-content;
-  background-image: linear-gradient(white, silver);
+  background-image: linear-gradient(whitesmoke, silver);
   padding: 2px
 }
 
@@ -45,4 +45,9 @@ nav ul li a {
   height: auto
   border-radius: 0.5em;
   object-fit: contain;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
 }
