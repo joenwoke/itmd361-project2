@@ -33,6 +33,11 @@ nav ul li a {
   color: white;
 }
 
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
 .babushka {
   border-radius: 0.5em;
   width: fit-content;
@@ -45,11 +50,6 @@ nav ul li a {
   height: auto;
   border-radius: 0.5em;
   object-fit: contain;
-}
-
-li a:hover {
-  background-color: white;
-  color: black;
 }
 
 .bye {
